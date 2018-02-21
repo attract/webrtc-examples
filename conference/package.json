@@ -1,0 +1,12 @@
+{
+  "description": "webrtc-server",
+  "version": "0.0.1",
+  "name": "webrtc-server",
+  "repository": "http://none",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "socket.io": "^1.4.8"
+  }
+}

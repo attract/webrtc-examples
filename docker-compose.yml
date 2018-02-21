@@ -1,0 +1,20 @@
+version: '2'
+
+services:
+  call_node:
+    network_mode: "bridge"
+    build:
+      context: ./call
+      dockerfile: Dockerfile
+    ports:
+      - "8443:8443"
+    restart: always
+
+  conference_node:
+    network_mode: "bridge"
+    build:
+      context: ./conference
+      dockerfile: Dockerfile
+    ports:
+      - "8444:8443"
+    restart: always

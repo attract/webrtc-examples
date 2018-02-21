@@ -1,0 +1,10 @@
+{
+  "description": "webrtc-server",
+  "version": "0.0.1",
+  "name": "webrtc-server",
+  "repository": "http://none",
+  "private": true,
+  "dependencies": {
+    "ws": "latest"
+  }
+}

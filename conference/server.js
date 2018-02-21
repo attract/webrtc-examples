@@ -28,6 +28,7 @@ server.listen(PORT, null, function() {
 //main.use(express.bodyParser());
 
 main.get('/', function(req, res){ res.sendFile(__dirname + '/client/index.html'); });
+main.get('/loading.gif', function(req, res){ res.sendFile(__dirname + '/client/loading.gif'); });
 // main.get('/index.html', function(req, res){ res.sendfile('newclient.html'); });
 // main.get('/client.html', function(req, res){ res.sendfile('newclient.html'); });
 
